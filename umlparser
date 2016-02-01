@@ -1,0 +1,6 @@
+#!/bin/sh
+
+javac $1/*.java
+
+java -jar ./target/UmlParser-1.0-SNAPSHOT-jar-with-dependencies.jar $1 $2
+
